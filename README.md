@@ -14,4 +14,8 @@ pytorch2.2+cuda12.2
 
 这个环境是基于py11的，我们从conda开始
 
-* conda create -n vmamba python==3.11
+```shell
+
+conda
+
+```
