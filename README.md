@@ -31,7 +31,26 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 
 # 这里是https://github.com/state-spaces/mamba 的编译
 首先我们的环境必须要有一个triton的支持
+triton来源于https://github.com/jakaline-dev/Triton_win/releases/tag/3.0.0
 
+我们下载完这个离线包之后放在本地文件夹下
+
+
+```shell
+
+pip install triton-3.0.0-cp311-cp311-win_amd64.whl
+
+```
+
+```shell
+
+cd mamba
+
+pip install -r requestment.txt
+
+pip install .
+
+```
 
 
 
